@@ -24,9 +24,10 @@ Method: fs.writeFile(path, data, [options], callback)
 Description: Asynchronously writes data to a file, replacing the file if it exists.
 */
 
-// fs.writeFile(path.join(__dirname, 'assets', 'data.txt'), 'write file data added !', err =>{
-//     if(err) throw err;
-//     console.log('write file data added !');
+// const dirPath = path.join(__dirname, 'new folder','newFile2.txt' );
+// fs.writeFile(dirPath, ' logs printed !', {encoding: 'utf-8'},  err=>{
+//   if(err) throw err;
+//   console.log('successfully written !');
 // })
 
 //============================================================================================================//

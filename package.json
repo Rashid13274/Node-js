@@ -1,9 +1,9 @@
 {
   "name": "node-js",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "test2.js",
   "scripts": {
-    "start": "node index"
+    "start": "node test2"
   },
   "author": "Md Rashid",
   "license": "ISC",

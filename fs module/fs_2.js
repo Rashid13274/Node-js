@@ -19,6 +19,41 @@ Description: Creates a new directory.
 //     console.log('dir created !');
 // })
 
+// ========================================================================================================//
+
+// create a file inside the dir
+// const dirPath = path.join(__dirname, 'new folder');
+// const filePath = path.join(dirPath, 'newfile.txt');
+
+// // Ensure directory exists
+// if (!fs.existsSync(dirPath)) {
+//   fs.mkdirSync(dirPath, { recursive: true });
+// }
+
+// // Create file
+// fs.open(filePath, 'w', (err) => {
+//   if (err) throw err;
+//   console.log('File created successfully');
+// });
+
+//========================================================================================================//
+// write data to the file
+// const filePath = path.join(__dirname, 'example.txt');
+// const content = 'Hello from Node.js';
+
+// fs.writeFile(filePath, content, { encoding: 'utf8' }, (err) => {
+//   if (err) {
+//     console.error('Error creating file:', err);
+//     return;
+//   }
+//   console.log('File created successfully');
+// }); 
+
+// Behavior:-
+// Creates the file if it does not exist
+// Overwrites the file if it already exists
+// Non-blocking (best for production servers)
+
 //========================================================================================================//
 
 /* 
